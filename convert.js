@@ -23,9 +23,9 @@ if(process.argv.length==6 && !isNaN(process.argv[2]) && process.argv[2]>0 && (pr
     }else if(process.argv[3]=="mm"&&process.argv[5]=="cm"){
         console.log(process.argv[2]+" "+process.argv[3]+" are "+process.argv[2]/10+" "+process.argv[5]);
     }else{
-        console.log("invalid parameters");
+        console.log("Invalid parameters");
     }
 }else{
-    console.log("invalid parameters");
+    console.log("Invalid parameters");
 }
 
